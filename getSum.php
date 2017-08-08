@@ -48,15 +48,15 @@
 
     function getClients()
     {
-    	$clients = array("1" => array(
+    	$clients = array("1" => array(//здесь нужно ввести параметры доступа к системам
        				 	 "id" => 1,
-            			 "name" => "intrdev",
-           				 "apiKey" => "a68eb01d5aa7d40ae45af4825d8d713a",
+            			 "name" => "",
+           				 "apiKey" => "",
         			 ),
         			 "2" => array(
         			 	 "id" => 2,
-            			 "name" => "artedegrass0",
-            			 "apiKey" => "23bc075b710da43f0ffb50ff9e889aed",
+            			 "name" => "",
+            			 "apiKey" => "",
         			 )
                     );
     	return $clients;
